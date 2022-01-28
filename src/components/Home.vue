@@ -9,7 +9,7 @@
     </v-sheet>
     <v-divider class="my-4" />
     <p v-text="text" />
-    <p><strong>Seu Saldo : R$</strong> {{ funds }}</p>
+    <p><strong>Seu Saldo : R$</strong> {{ funds | currency }}</p>
   </div>
 </template>
 <script>
